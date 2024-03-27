@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Unit Tests Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="description">Enter your code and generate Unit Tests!</h1>
+        <div class="fields">
+            <textarea class="input-field code-snippet" id="input-code"></textarea>
+            <textarea class="output-field code-snippet" id="output-code" readonly></textarea>
+        </div>
+        <button class="generate-button" id="generate">Generate</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
