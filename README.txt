@@ -1,5 +1,5 @@
 This Flask application leverages an LLM API (OpenAI or "meta/codellama-70b") to automatically generate unit tests for your Python functions.
-
+---------------------------------------------------------------------------
 Installation and Setup
 
     Create and activate a virtual environment:
