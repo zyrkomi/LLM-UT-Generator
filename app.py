@@ -6,7 +6,7 @@ import io
 
 app = Flask(__name__)
 
-pre_prompt = "Write comprehensive unit tests in Python for the following code:"
+pre_prompt = "Verify if given text is a python code - if yes, than write comprehensive unit tests for it. If it is not a code - return response: 'no valid code provided'. "
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
